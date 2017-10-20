@@ -68,6 +68,10 @@ def sigmoid(x):
     return K.sigmoid(x)
 
 
+def swish(x):
+    return x * K.sigmoid(x)
+
+
 def hard_sigmoid(x):
     return K.hard_sigmoid(x)
 
